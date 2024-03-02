@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(216, 204, 204);
+}
+.checked-todo{
+    text-decoration: line-through;
+}
