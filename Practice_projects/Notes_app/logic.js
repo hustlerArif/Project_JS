@@ -1,7 +1,7 @@
 const addBtn = document.querySelector(".button");
 const inputText = document.querySelector(".input");
 const showOutput = document.getElementById("demo");
-
+//adding comment
 let todo;
 let tempArr = [];
 addBtn.addEventListener("click", () => {
