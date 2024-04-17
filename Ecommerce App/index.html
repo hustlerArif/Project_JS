@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flixcart Official store</title>
+    <meta name="author" description="Md Arif" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="heading d-flex align-center fixed top-0 left-0">
+      <div class="heading-title-icon d-flex align-center">
+        <!-- <img class="icon mr-1" src="/assets/image.png" alt="lightbul"> -->
+        <h1 class="heading-title">
+          <a class="link" href="/">Flixcart shop</a>
+        </h1>
+      </div>
+
+      <div class="search-box-container relative">
+        <input class="search-box-input" placeholder="Search products" />
+        <span class="material-icons-outlined absolute top-0 left-0">
+          search
+        </span>
+      </div>
+
+      <nav class="navigation">
+        <ul class="list-non-bullet d-flex align-center gap">
+          <li class="list-item-inline">
+            <a href="/" class="link cursor">
+              <span class="nav-icon material-icons-outlined">
+                favorite_border
+              </span>
+            </a>
+          </li>
+          <li class="list-item-inline">
+            <a href="/" class="link cursor">
+              <span class="nav-icon material-icons-outlined">
+                shopping_cart
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <div class="products-page d-flex wrap gap" id="products"></div>
+
+    <!--  for reference HTML into JS 
+    <div class="card card-vertical d-flex direction-column relative shadow">
+      <div class="card-image-container">
+        <img
+          class="card-image"
+          src="https://uilight.netlify.app/assets/shoes.jpg"
+          alt="shoes"
+        />
+      </div>
+      <div class="card-details">
+        <div class="card-title">Premium Collection</div>
+        <div class="card-description">
+          <p class="card-des">Men Sneakers</p>
+          <p class="card-price">
+            Rs. 1750
+            <span class="price-strike-through">Rs. 2499</span>
+            <span class="discount">(30% OFF)</span>
+          </p>
+          <p class="d-flex align-center">
+            <span>4.8</span>
+            <span class="material-icons-outlined star">star</span>
+          </p>
+        </div>
+        <div class="cta-btn">
+          <button
+            class="button btn-primary btn-icon cart-btn d-flex align-center justify-center gap cursor btn-margin"
+          >
+            <span class="material-icons-outlined star">shopping_cart</span>
+            <span>Add To Cart</span>
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
